@@ -27,17 +27,20 @@ async function processLineByLine() {
     // Each line in input.txt will be successively available here as `line`.
   //  console.log(`Line from file: ${line}`);
   }
-  console.log(maps[1][1]);
+//  console.log(maps[1][1]);
 }
 
 processLineByLine().then(function() { 
-  drawFromRoom(1, 1, 1);
+  console.log(maps[1]);
+  //drawFromRoom(1, 1, 1);
 });
-
+/* WIP
 function drawFromRoom(mapNumber, roomNumber, radius) {
   switch(radius) {
     case radius > 1:
-      foreach
+      foreach(var direction in ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW', 'U', 'D']) {
+	      // check each direction and see if there's a room
+      }
       drawFromRoom(mapNumber, roomNumber, radius-1);
       break;
     case radius == 1:
@@ -49,4 +52,4 @@ function drawFromRoom(mapNumber, roomNumber, radius) {
   }
 }
 
-
+*/
