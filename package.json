@@ -1,0 +1,11 @@
+{
+  "name": "mmud",
+  "version": "1.0.0",
+  "description": "This repo contains the JSON representation of the GreaterMUD data files, as exported in data-Gmud1.3_6-12_Final.mdb via mdbtools.",
+  "main": "rooms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
